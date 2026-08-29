@@ -103,27 +103,41 @@ export default function Footer() {
                         <button
                             type="submit"
                             className="
-            relative
-            flex
-            shrink-0
-            items-center
-            gap-1
-            overflow-hidden
-            rounded-full
-            bg-linear-to-r
-            from-purple-600
-            via-orange-300
-            to-orange-300
-            px-5
-            py-2.5
-            text-sm
-            text-white
-            shadow-lg
-            transition-transform
-            hover:scale-[1.02]
-            active:scale-[0.98]
-          "
-                        >
+                relative
+                flex items-center gap-1.5
+                overflow-hidden
+                rounded-full
+                px-7 py-2.5
+                text-black
+                /* glass body */
+                bg-white/80
+                backdrop-blur-md
+                /* glass edge */
+                border border-white/80
+                /* liquid glass shine */
+                shadow-[inset_0_1px_1px_rgba(255,255,255,0.95),inset_0_-1px_2px_rgba(0,0,0,0.08),0_4px_15px_rgba(0,0,0,0.08)]
+                /* purple/orange liquid */
+                before:absolute
+                before:-left-[15%]
+                before:top-[15%]
+                before:h-[70%]
+                before:w-[55%]
+                before:rounded-full
+                before:bg-purple-500/60
+                before:blur-xl
+                after:absolute
+                after:-right-[15%]
+                after:top-[15%]
+                after:h-[70%]
+                after:w-[55%]
+                after:rounded-full
+                after:bg-orange-300/60
+                after:blur-xl
+                shadow-lg
+                transition-transform
+                hover:scale-[1.02]
+                active:scale-[0.98]
+                ">
                             <span className="relative z-10">
                                 Subscribe
                             </span>

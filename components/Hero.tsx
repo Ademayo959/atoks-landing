@@ -65,17 +65,41 @@ export default function Hero() {
                     <p className='text-gray-500 font-spaceGrotesk w-full max-w-120 text-[0.9rem] text-center'>HAQQ Wallet is a community governed DAPP marketplace. A hub or all products, designed to meet user needs.</p>
                 </div>
                 <div className='justify-self-center my-5'>
-                    <div className="
-                            relative
-                            bg-black text-white
-                            flex items-center gap-1.5
-                            px-7 py-2.5
-                            rounded-full
-                            w-fit h-fit
-                            overflow-hidden
-                            bg-linear-to-r from-purple-600 via-orange-300 to-orange-300
-                            shadow-lg
-                        ">
+                   <div className="
+    relative
+    flex items-center gap-1.5
+    overflow-hidden
+    rounded-full
+    px-7 py-2.5
+    text-black
+    /* glass body */
+    bg-white/80
+    backdrop-blur-md
+    /* glass edge */
+    border border-white/80
+    /* liquid glass shine */
+    shadow-[inset_0_1px_1px_rgba(255,255,255,0.95),inset_0_-1px_2px_rgba(0,0,0,0.08),0_4px_15px_rgba(0,0,0,0.08)]
+    /* purple/orange liquid */
+    before:absolute
+    before:-left-[15%]
+    before:top-[15%]
+    before:h-[70%]
+    before:w-[55%]
+    before:rounded-full
+    before:bg-purple-500/60
+    before:blur-xl
+    after:absolute
+    after:-right-[15%]
+    after:top-[15%]
+    after:h-[70%]
+    after:w-[55%]
+    after:rounded-full
+    after:bg-orange-300/60
+    after:blur-xl
+  "
+>
+
+
                         <p>Get Started Today</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={4.0} stroke="currentColor" className="h-3 w-3">
                             <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
