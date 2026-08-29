@@ -3,6 +3,14 @@ import user1 from '@/assets/user1.jpeg'
 import user2 from '@/assets/user2.jpeg'
 import user3 from '@/assets/user3.jpeg'
 import phone from '@/assets/atoksPhone.png'
+import odc from '@/assets/odc.png'
+import blackwhite from '@/assets/blackwhite.png'
+import estate from '@/assets/estate.png'
+import northlane from '@/assets/northlane.png'
+import highnorth from '@/assets/highnorth.png'
+import profile1 from '@/assets/profile1.jpeg'
+import profile2 from '@/assets/profile2.jpeg'
+import profile3 from '@/assets/profile3.jpeg'
 
 export default function Hero() {
     return (
@@ -48,7 +56,7 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className='justify-self-center'>
                     <p className='text-[4.5rem] my-6 font-sora w-250 leading-20 text-center font-semibold'>Take control of your financial journey</p>
                 </div>
                 <div className='justify-self-center'>
@@ -77,6 +85,143 @@ export default function Hero() {
                 </div>
                 <div className='py-4'>
                     <p className='font-sora text-[1.5rem] text-gray-700 text-center font-semibold'>Trusted by Teams Around the Globe</p>
+                    <div className='flex justify-between items-center my-3'>
+                        <Image src={odc} alt='' className='w-60  h-fit' />
+                        <Image src={estate} alt='' className='w-60 h-fit' />
+                        <Image src={northlane} alt='' className='w-60 h-fit' />
+                        <Image src={blackwhite} alt='' className='w-60 h-fit' />
+                        <Image src={highnorth} alt='' className='w-60 h-fit' />
+                    </div>
+                </div>
+                <div className='mt-12'>
+                    <div className='border border-gray-800 py-1.5 px-6 w-fit rounded-full justify-self-center'>
+                        <p className='font-spaceGrotesk'>Senetra</p>
+                    </div>
+                    <div className='justify-self-center mt-3'>
+                        <p className='font-sora font-semibold text-[3.5rem]'>Innovation that works</p>
+                    </div>
+                    <div className='justify-self-center'>
+                        <p className='text-gray-500 font-spaceGrotesk w-120 text-[0.9rem] text-center'>Discover how our powerful tools make managing money simpler, faster and smarter</p>
+                    </div>
+                </div>
+                <div className='grid grid-cols-3 gap-8 mb-8 mt-12'>
+                    <div className='border border-gray-200 h-fit shadow-lg rounded-xl p-5'>
+                        <div className='flex gap-2'>
+                            <div>
+                                <Image src={profile3} alt='' className='w-13 h-13 rounded-sm' />
+                            </div>
+                            <div>
+                                <p className='font-semibold font-sora text-[1.2rem]'>Steve Rogers</p>
+                                <div className='flex items-center gap-1'>
+                                    <p className='text-gray-700 text-[0.8rem]'>Brand Designer</p>
+                                    <div className='h-1 w-1 rounded-full bg-gray-800'></div>
+                                    <p className='text-gray-700 text-[0.8rem]'>London</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p className='text-[0.95rem] text-gray-600 my-3'>"Atoks makes managing my money feel a lot less complicated. I can see where everything is going without having to think too much about it."</p>
+                        </div>
+                        <div className='flex justify-between items-center font-sora px-8'>
+                            <div className='text-center'>
+                                <p>Projects</p>
+                                <p className='font-semibold'>50</p>
+                            </div>
+                            <div className='w-[1px] h-8 bg-gray-200'></div>
+                            <div className='text-center'>
+                                <p>Earnings</p>
+                                <p className='font-semibold'>$28k+</p>
+                            </div>
+                            <div className='w-[1px] h-8 bg-gray-200'></div>
+                            <div className='text-center'>
+                                <p>Rating</p>
+                                <div className='flex items-center gap-1 font-semibold'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 text-amber-300">
+                                        <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
+                                    </svg>
+                                    <p>4.5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='border border-gray-200 h-fit shadow-lg rounded-xl p-5'>
+                        <div className='flex gap-2'>
+                            <div>
+                                <Image src={profile2} alt='' className='w-13 h-13 rounded-sm' />
+                            </div>
+                            <div>
+                                <p className='font-semibold font-sora text-[1.2rem]'>Marcus Williams</p>
+                                <div className='flex items-center gap-1'>
+                                    <p className='text-gray-700 text-[0.8rem]'>Software Engineer</p>
+                                    <div className='h-1 w-1 rounded-full bg-gray-800'></div>
+                                    <p className='text-gray-700 text-[0.8rem]'>Luxembörg</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p className='text-[0.95rem] text-gray-600 my-3'>“I’ve tried a lot of finance apps, but Atoks is one of the few that actually feels simple. Everything I need is right where I expect it to be.”</p>
+                        </div>
+                        <div className='flex justify-between items-center font-sora px-8'>
+                            <div className='text-center'>
+                                <p>Projects</p>
+                                <p className='font-semibold'>47</p>
+                            </div>
+                            <div className='w-[1px] h-8 bg-gray-200'></div>
+                            <div className='text-center'>
+                                <p>Earnings</p>
+                                <p className='font-semibold'>$41k+</p>
+                            </div>
+                            <div className='w-[1px] h-8 bg-gray-200'></div>
+                            <div className='text-center'>
+                                <p>Rating</p>
+                                <div className='flex items-center gap-1 font-semibold'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 text-amber-300">
+                                        <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
+                                    </svg>
+                                    <p>4.8</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='border border-gray-200 h-fit shadow-lg rounded-xl p-5'>
+                        <div className='flex gap-2'>
+                            <div>
+                                <Image src={profile1} alt='' className='w-13 h-13 rounded-sm' />
+                            </div>
+                            <div>
+                                <p className='font-semibold font-sora text-[1.2rem]'>Barry Tauge</p>
+                                <div className='flex items-center gap-1'>
+                                    <p className='text-gray-700 text-[0.8rem]'>Creative Director</p>
+                                    <div className='h-1 w-1 rounded-full bg-gray-800'></div>
+                                    <p className='text-gray-700 text-[0.8rem]'>Orlando</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p className='text-[0.95rem] text-gray-600 my-3'>“The best part is how effortless it feels. I can keep track of my spending, manage my cards and stay on top of my finances without the usual clutter.”</p>
+                        </div>
+                        <div className='flex justify-between items-center font-sora px-8'>
+                            <div className='text-center'>
+                                <p>Projects</p>
+                                <p className='font-semibold'>23</p>
+                            </div>
+                            <div className='w-[1px] h-8 bg-gray-200'></div>
+                            <div className='text-center'>
+                                <p>Earnings</p>
+                                <p className='font-semibold'>$14k+</p>
+                            </div>
+                            <div className='w-[1px] h-8 bg-gray-200'></div>
+                            <div className='text-center'>
+                                <p>Rating</p>
+                                <div className='flex items-center gap-1 font-semibold'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 text-amber-300">
+                                        <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
+                                    </svg>
+                                    <p>4.6</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
