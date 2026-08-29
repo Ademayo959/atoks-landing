@@ -16,7 +16,7 @@ export default function Navbar() {
                 {/* Desktop Navigation */}
                 <nav className="hidden items-center gap-5 font-sora lg:flex">
                     <div className="flex items-center gap-1">
-                        <p className="text-base xl:text-lg">Home</p>
+                        <p className="text-base xl:text-md">Home</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="h-4 w-4">
                             <path
                                 strokeLinecap="round"
@@ -25,11 +25,11 @@ export default function Navbar() {
                             />
                         </svg>
                     </div>
-                    <p className="text-base xl:text-lg">Features</p>
-                    <p className="text-base xl:text-lg">Pricing</p>
-                    <p className="text-base xl:text-lg">Blogs</p>
+                    <p className="text-base xl:text-md">Features</p>
+                    <p className="text-base xl:text-md">Pricing</p>
+                    <p className="text-base xl:text-md">Blogs</p>
                     <div className="flex items-center gap-1">
-                        <p className="text-base xl:text-lg">Pages</p>
+                        <p className="text-base xl:text-md">Pages</p>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="h-4 w-4">
                             <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
                         </svg>

@@ -57,7 +57,7 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className='justify-self-center'>
-                    <p className='text-[2.8rem] sm:text-[3.5rem] lg:text-[4.5rem] my-6 font-sora w-full max-w-250 leading-[1.05] lg:leading-20 text-center font-semibold'>
+                    <p className='text-[2.8rem] sm:text-[3.5rem] tracking-tight lg:text-[4.5rem] my-6 font-sora w-full max-w-250 leading-[1.05] lg:leading-20 text-center font-semibold'>
                         Take control of your financial journey
                     </p>
                 </div>
