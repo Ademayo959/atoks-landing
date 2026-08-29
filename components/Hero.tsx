@@ -124,7 +124,7 @@ export default function Hero() {
                         <p className='font-spaceGrotesk'>Senetra</p>
                     </div>
                     <div className='justify-self-center mt-3'>
-                        <p className='font-sora font-semibold text-[2.5rem] sm:text-[3rem] lg:text-[3.5rem] text-center'>
+                        <p className='font-sora leading-10 font-semibold text-[2.5rem] sm:text-[3rem] lg:text-[3.5rem] text-center'>
                             Innovation that works
                         </p>
                     </div>
@@ -136,7 +136,7 @@ export default function Hero() {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8 mt-12 px-4'>
                     <div className='border border-gray-200 h-fit shadow-lg rounded-xl p-5'>
-                        <div className='flex gap-2'>
+                        <div className='flex gap-4'>
                             <div>
                                 <Image src={profile3} alt='' className='w-13 h-13 rounded-sm' />
                             </div>
@@ -154,17 +154,17 @@ export default function Hero() {
                         </div>
                         <div className='flex justify-between items-center font-sora px-2 sm:px-8'>
                             <div className='text-center'>
-                                <p>Projects</p>
-                                <p className='font-semibold'>50</p>
+                                <p className='text-[0.7rem] text-gray-700/70'>Projects</p>
+                                <p className='font-semibold text-[1.2rem]'>50</p>
                             </div>
                             <div className='w-[1px] h-8 bg-gray-200'></div>
                             <div className='text-center'>
-                                <p>Earnings</p>
-                                <p className='font-semibold'>$28k+</p>
+                                <p className='text-[0.7rem] text-gray-700/70'>Earnings</p>
+                                <p className='font-semibold text-[1.2rem]'>$28k+</p>
                             </div>
                             <div className='w-[1px] h-8 bg-gray-200'></div>
                             <div className='text-center'>
-                                <p>Rating</p>
+                                <p className='text-[0.7rem] text-gray-700/70 text-[1.2rem]'>Rating</p>
                                 <div className='flex items-center gap-1 font-semibold'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 text-amber-300">
                                         <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
@@ -175,7 +175,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className='border border-gray-200 h-fit shadow-lg rounded-xl p-5'>
-                        <div className='flex gap-2'>
+                        <div className='flex gap-4'>
                             <div>
                                 <Image src={profile2} alt='' className='w-13 h-13 rounded-sm' />
                             </div>
@@ -193,18 +193,18 @@ export default function Hero() {
                         </div>
                         <div className='flex justify-between items-center font-sora px-8'>
                             <div className='text-center'>
-                                <p>Projects</p>
-                                <p className='font-semibold'>47</p>
+                                <p className='text-[0.7rem] text-gray-700/70'>Projects</p>
+                                <p className='font-semibold text-[1.2rem]'>47</p>
                             </div>
                             <div className='w-[1px] h-8 bg-gray-200'></div>
                             <div className='text-center'>
-                                <p>Earnings</p>
-                                <p className='font-semibold'>$41k+</p>
+                                <p className='text-[0.7rem] text-gray-700/70'>Earnings</p>
+                                <p className='font-semibold text-[1.2rem]'>$41k+</p>
                             </div>
                             <div className='w-[1px] h-8 bg-gray-200'></div>
                             <div className='text-center'>
-                                <p>Rating</p>
-                                <div className='flex items-center gap-1 font-semibold'>
+                                <p className='text-[0.7rem] text-gray-700/70'>Rating</p>
+                                <div className='flex items-center gap-1 font-semibold text-[1.2rem]'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 text-amber-300">
                                         <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
                                     </svg>
@@ -214,7 +214,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className='border border-gray-200 h-fit shadow-lg rounded-xl p-5'>
-                        <div className='flex gap-2'>
+                        <div className='flex gap-4'>
                             <div>
                                 <Image src={profile1} alt='' className='w-13 h-13 rounded-sm' />
                             </div>
@@ -232,18 +232,18 @@ export default function Hero() {
                         </div>
                         <div className='flex justify-between items-center font-sora px-8'>
                             <div className='text-center'>
-                                <p>Projects</p>
-                                <p className='font-semibold'>23</p>
+                                <p className='text-[0.7rem] text-gray-700/70'>Projects</p>
+                                <p className='font-semibold text-[1.2rem]'>23</p>
                             </div>
                             <div className='w-[1px] h-8 bg-gray-200'></div>
                             <div className='text-center'>
-                                <p>Earnings</p>
-                                <p className='font-semibold'>$14k+</p>
+                                <p className='text-[0.7rem] text-gray-700/70'>Earnings</p>
+                                <p className='font-semibold text-[1.2rem]'>$14k+</p>
                             </div>
                             <div className='w-[1px] h-8 bg-gray-200'></div>
                             <div className='text-center'>
-                                <p>Rating</p>
-                                <div className='flex items-center gap-1 font-semibold'>
+                                <p className='text-[0.7rem] text-gray-700/70'>Rating</p>
+                                <div className='flex items-center gap-1 font-semibold text-[1.2rem]'>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 text-amber-300">
                                         <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
                                     </svg>
