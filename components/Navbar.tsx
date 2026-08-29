@@ -2,7 +2,7 @@
 import { useState } from "react"
 
 export default function Navbar() {
-    const [isOpen, setIsOpen] = useState(true)
+    const [isOpen, setIsOpen] = useState(false)
 
     return (
         <header className="w-full">
