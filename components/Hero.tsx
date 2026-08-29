@@ -101,8 +101,8 @@ export default function Hero() {
                     </div>
                     <div className='justify-self-center mt-3'>
                         <p className='font-sora font-semibold text-[2.5rem] sm:text-[3rem] lg:text-[3.5rem] text-center'>
-    Innovation that works
-</p>
+                            Innovation that works
+                        </p>
                     </div>
                     <div className='justify-self-center'>
                         <p className='text-gray-500 font-spaceGrotesk w-full max-w-120 text-[0.9rem] text-center'>
@@ -110,7 +110,7 @@ export default function Hero() {
                         </p>
                     </div>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8 mt-12'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8 mt-12 px-4'>
                     <div className='border border-gray-200 h-fit shadow-lg rounded-xl p-5'>
                         <div className='flex gap-2'>
                             <div>
