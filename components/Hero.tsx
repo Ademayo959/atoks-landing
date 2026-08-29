@@ -14,9 +14,9 @@ import profile3 from '@/assets/profile3.jpeg'
 
 export default function Hero() {
     return (
-        <div className='font-inter max-w-7xl mx-auto relative'>
+        <div className='font-inter max-w-7xl mx-auto relative sm:px-5 lg: px-0'>
             <div className="pointer-events-none absolute inset-x-0 top-[120px] z-0 overflow-hidden text-center">
-                <span className="block font-semibold font-montserrat text-[clamp(180px,22vw,420px)] font-black leading-[0.8] tracking-[-0.08em] text-transparent bg-gradient-to-b from-black/[0.065] via-black/[0.03] via-[48%] to-transparent bg-clip-text [-webkit-background-clip:text]">
+                <span className="block font-semibold font-montserrat text-[clamp(120px,22vw,420px)] font-black leading-[0.8] tracking-[-0.08em] text-transparent bg-gradient-to-b from-black/[0.065] via-black/[0.03] via-[48%] to-transparent bg-clip-text [-webkit-background-clip:text]">
                     ATOKS
                 </span>
             </div>
@@ -57,10 +57,12 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className='justify-self-center'>
-                    <p className='text-[4.5rem] my-6 font-sora w-250 leading-20 text-center font-semibold'>Take control of your financial journey</p>
+                    <p className='text-[2.8rem] sm:text-[3.5rem] lg:text-[4.5rem] my-6 font-sora w-full max-w-250 leading-[1.05] lg:leading-20 text-center font-semibold'>
+                        Take control of your financial journey
+                    </p>
                 </div>
                 <div className='justify-self-center'>
-                    <p className='text-gray-500 font-spaceGrotesk w-120 text-[0.9rem] text-center'>HAQQ Wallet is a community governed DAPP marketplace. A hub or all products, designed to meet user needs.</p>
+                    <p className='text-gray-500 font-spaceGrotesk w-full max-w-120 text-[0.9rem] text-center'>HAQQ Wallet is a community governed DAPP marketplace. A hub or all products, designed to meet user needs.</p>
                 </div>
                 <div className='justify-self-center my-5'>
                     <div className="
@@ -81,16 +83,16 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className='justify-self-center'>
-                    <Image src={phone} alt='' className='max-w-3xl' />
+                    <Image src={phone} alt='' className='w-full max-w-3xl' />
                 </div>
                 <div className='py-4'>
                     <p className='font-sora text-[1.5rem] text-gray-700 text-center font-semibold'>Trusted by Teams Around the Globe</p>
-                    <div className='flex justify-between items-center my-3'>
-                        <Image src={odc} alt='' className='w-60  h-fit' />
-                        <Image src={estate} alt='' className='w-60 h-fit' />
-                        <Image src={northlane} alt='' className='w-60 h-fit' />
-                        <Image src={blackwhite} alt='' className='w-60 h-fit' />
-                        <Image src={highnorth} alt='' className='w-60 h-fit' />
+                    <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 items-center my-3'>
+                        <Image src={odc} alt='' className='w-full max-w-60 h-fit mx-auto' />
+                        <Image src={estate} alt='' className='w-full max-w-60 h-fit mx-auto' />
+                        <Image src={northlane} alt='' className='w-full max-w-60 h-fit mx-auto' />
+                        <Image src={blackwhite} alt='' className='w-full max-w-60 h-fit mx-auto' />
+                        <Image src={highnorth} alt='' className='w-full max-w-60 h-fit mx-auto' />
                     </div>
                 </div>
                 <div className='mt-12'>
@@ -98,13 +100,17 @@ export default function Hero() {
                         <p className='font-spaceGrotesk'>Senetra</p>
                     </div>
                     <div className='justify-self-center mt-3'>
-                        <p className='font-sora font-semibold text-[3.5rem]'>Innovation that works</p>
+                        <p className='font-sora font-semibold text-[2.5rem] sm:text-[3rem] lg:text-[3.5rem] text-center'>
+    Innovation that works
+</p>
                     </div>
                     <div className='justify-self-center'>
-                        <p className='text-gray-500 font-spaceGrotesk w-120 text-[0.9rem] text-center'>Discover how our powerful tools make managing money simpler, faster and smarter</p>
+                        <p className='text-gray-500 font-spaceGrotesk w-full max-w-120 text-[0.9rem] text-center'>
+                            Discover how our powerful tools make managing money simpler, faster and smarter
+                        </p>
                     </div>
                 </div>
-                <div className='grid grid-cols-3 gap-8 mb-8 mt-12'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8 mt-12'>
                     <div className='border border-gray-200 h-fit shadow-lg rounded-xl p-5'>
                         <div className='flex gap-2'>
                             <div>
@@ -122,7 +128,7 @@ export default function Hero() {
                         <div>
                             <p className='text-[0.95rem] text-gray-600 my-3'>"Atoks makes managing my money feel a lot less complicated. I can see where everything is going without having to think too much about it."</p>
                         </div>
-                        <div className='flex justify-between items-center font-sora px-8'>
+                        <div className='flex justify-between items-center font-sora px-2 sm:px-8'>
                             <div className='text-center'>
                                 <p>Projects</p>
                                 <p className='font-semibold'>50</p>

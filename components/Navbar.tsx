@@ -25,14 +25,7 @@ export default function Navbar() {
                     <p className="text-base xl:text-lg">Blogs</p>
                     <div className="flex items-center gap-1">
                         <p className="text-base xl:text-lg">Pages</p>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={2.5}
-                            stroke="currentColor"
-                            className="h-4 w-4"
-                        >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="h-4 w-4">
                             <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
@@ -42,8 +35,6 @@ export default function Navbar() {
                     </div>
 
                 </nav>
-
-
                 {/* Right side */}
                 <div className="flex items-center gap-3">
                     {/* Sign in */}
@@ -69,14 +60,7 @@ export default function Navbar() {
                     <button
                         aria-label="Open menu"
                         className=" flex h-9 w-9 items-center justify-center rounded-full border border-gray-200 lg:hidden">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={2}
-                            stroke="currentColor"
-                            className="h-5 w-5"
-                        >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="h-5 w-5">
                             <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
@@ -84,9 +68,7 @@ export default function Navbar() {
                             />
                         </svg>
                     </button>
-
                 </div>
-
             </div>
         </header>
     )
