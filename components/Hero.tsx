@@ -86,7 +86,7 @@ export default function Hero() {
                     <Image src={phone} alt='' className='w-full max-w-3xl' />
                 </div>
                 <div className='py-4'>
-                    <p className='font-sora text-[1.5rem] text-gray-700 text-center font-semibold'>Trusted by Teams Around the Globe</p>
+                    <p className='font-sora text-[1.5rem] text-gray-700 text-center font-semibold max-sm:px-3'>Trusted by Teams Around the Globe</p>
                     <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 items-center my-3'>
                         <Image src={odc} alt='' className='w-full max-w-60 h-fit mx-auto' />
                         <Image src={estate} alt='' className='w-full max-w-60 h-fit mx-auto' />
